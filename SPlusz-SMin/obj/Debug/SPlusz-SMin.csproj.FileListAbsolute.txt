@@ -1,1 +1,6 @@
 c:\users\erik\documents\visual studio 2015\Projects\SPlusz-SMin\SPlusz-SMin\bin\Debug\SPlusz-SMin.exe.config
+c:\users\erik\documents\visual studio 2015\Projects\SPlusz-SMin\SPlusz-SMin\bin\Debug\SPlusz-SMin.exe
+c:\users\erik\documents\visual studio 2015\Projects\SPlusz-SMin\SPlusz-SMin\bin\Debug\SPlusz-SMin.pdb
+c:\users\erik\documents\visual studio 2015\Projects\SPlusz-SMin\SPlusz-SMin\obj\Debug\SPlusz-SMin.csprojResolveAssemblyReference.cache
+c:\users\erik\documents\visual studio 2015\Projects\SPlusz-SMin\SPlusz-SMin\obj\Debug\SPlusz-SMin.exe
+c:\users\erik\documents\visual studio 2015\Projects\SPlusz-SMin\SPlusz-SMin\obj\Debug\SPlusz-SMin.pdb

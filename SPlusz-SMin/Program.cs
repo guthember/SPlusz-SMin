@@ -47,17 +47,29 @@ namespace sNulla
                 int i = 0, j = 0;
                 i = vel.Next(0, 20);
                 j = vel.Next(0, 20);
+                // ha A --> B-t A-ra
                 if (eletter[i, j] == 'A')
                 {
-                    eletter[i, j] = 'B';
-                    dbA--;
-                    dbB++;
-                }
-                else
-                {
+                    do
+                    {
+                        i = vel.Next(0, 20);
+                        j = vel.Next(0, 20);
+                    } while (eletter[i,j] != 'B');
                     eletter[i, j] = 'A';
                     dbA++;
                     dbB--;
+                }
+                // ha B --> A-t B-re
+                else
+                {
+                    do
+                    {
+                        i = vel.Next(0, 20);
+                        j = vel.Next(0, 20);
+                    } while (eletter[i, j] != 'A');
+                    eletter[i, j] = 'B';
+                    dbA--;
+                    dbB++;
                 }
 
                 fileKi.WriteLine("{0};{1}", dbA, dbB);
